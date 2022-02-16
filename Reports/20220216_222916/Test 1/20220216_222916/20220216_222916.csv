@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test 1,,,,2022-02-16 22:29:27,2022-02-16 22:29:34,7.181s,PASSED
+,,,,,,,
+Test Cases/GET list users,,,,2022-02-16 22:29:28,2022-02-16 22:29:30,2.542s,PASSED
+"response = sendRequest(findTestObject(""GET list users""))",,workaround for sendandverify has expection error,,2022-02-16 22:29:28,2022-02-16 22:29:30,2.134s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-02-16 22:29:30,2022-02-16 22:29:30,0.060s,PASSED
+,,,,,,,
+Test Cases/GET single user,,,,2022-02-16 22:29:30,2022-02-16 22:29:32,1.362s,PASSED
+"responseData = sendRequestAndVerify(findTestObject(""GET single user""))",,,,2022-02-16 22:29:31,2022-02-16 22:29:31,0.807s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-02-16 22:29:31,2022-02-16 22:29:31,0.016s,PASSED
+parsedJson = slurper.parseText(responseData.getResponseBodyContent()),,,,2022-02-16 22:29:31,2022-02-16 22:29:31,0.015s,PASSED
+email = email,,,,2022-02-16 22:29:31,2022-02-16 22:29:32,0.141s,PASSED
+if (email == null),,,,2022-02-16 22:29:32,2022-02-16 22:29:32,0.000s,PASSED
+,,,,,,,
+Test Cases/POST register successfully,,,,2022-02-16 22:29:32,2022-02-16 22:29:33,1.267s,PASSED
+"responseData = sendRequestAndVerify(findTestObject(""POST register successful""))",,,,2022-02-16 22:29:32,2022-02-16 22:29:33,1.027s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-02-16 22:29:33,2022-02-16 22:29:33,0.000s,PASSED
+parsedJson = slurper.parseText(responseData.getResponseBodyContent()),,,,2022-02-16 22:29:33,2022-02-16 22:29:33,0.000s,PASSED
+println(id),,,,2022-02-16 22:29:33,2022-02-16 22:29:33,0.000s,PASSED
+,,,,,,,
+Test Cases/PUT update,,,,2022-02-16 22:29:33,2022-02-16 22:29:34,1.226s,PASSED
+"sendRequestAndVerify(findTestObject(""PUT update""))",,,,2022-02-16 22:29:33,2022-02-16 22:29:34,0.992s,PASSED

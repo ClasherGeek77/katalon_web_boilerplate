@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test 1" time="7.369" tests="4" failures="0" errors="0">
+   <testsuite name="Test 1" tests="4" failures="0" errors="0" time="7.369" skipped="0" timestamp="2022-02-16 22:29:27" hostname="Teddy - DESKTOP-V6MFA4R" id="Test Suites/Test 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Teddy\\Desktop\\Test 1\\Reports\\20220216_222916\\Test 1\\20220216_222916"/>
+         <property name="logFiles" value="C:\\Users\\Teddy\\Desktop\\Test 1\\Reports\\20220216_222916\\Test 1\\20220216_222916\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Teddy - DESKTOP-V6MFA4R"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.0.208"/>
+      </properties>
+      <testcase name="Test Cases/GET list users" time="2.542" classname="Test Cases/GET list users" status="PASSED">
+         <system-out><![CDATA[2022-02-16 22:29:28 - [TEST_CASE][PASSED] - Test Cases/GET list users: Test Cases/GET list users
+
+2022-02-16 22:29:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GET list users")): Send request successfully
+
+2022-02-16 22:29:30 - [MESSAGE][INFO] - HAR: C:\Users\Teddy\Desktop\Test 1\Reports\20220216_222916\Test 1\20220216_222916\requests\main\0.har
+
+2022-02-16 22:29:30 - [MESSAGE][PASSED] - Send request successfully
+
+2022-02-16 22:29:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-02-16 22:29:30 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GET single user" time="1.362" classname="Test Cases/GET single user" status="PASSED">
+         <system-out><![CDATA[2022-02-16 22:29:30 - [TEST_CASE][PASSED] - Test Cases/GET single user: Test Cases/GET single user
+
+2022-02-16 22:29:31 - [TEST_STEP][PASSED] - responseData = sendRequestAndVerify(findTestObject("GET single user")): Send request and verify the response successfully
+
+2022-02-16 22:29:31 - [MESSAGE][INFO] - HAR: C:\Users\Teddy\Desktop\Test 1\Reports\20220216_222916\Test 1\20220216_222916\requests\main\1.har
+
+2022-02-16 22:29:31 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-02-16 22:29:31 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-02-16 22:29:31 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-02-16 22:29:31 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-02-16 22:29:31 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-02-16 22:29:31 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-02-16 22:29:31 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseData.getResponseBodyContent()): null
+
+2022-02-16 22:29:31 - [TEST_STEP][PASSED] - email = email: null
+
+2022-02-16 22:29:32 - [TEST_STEP][PASSED] - if (email == null): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POST register successfully" time="1.267" classname="Test Cases/POST register successfully" status="PASSED">
+         <system-out><![CDATA[2022-02-16 22:29:32 - [TEST_CASE][PASSED] - Test Cases/POST register successfully: Test Cases/POST register successfully
+
+2022-02-16 22:29:32 - [TEST_STEP][PASSED] - responseData = sendRequestAndVerify(findTestObject("POST register successful")): Send request and verify the response successfully
+
+2022-02-16 22:29:33 - [MESSAGE][INFO] - HAR: C:\Users\Teddy\Desktop\Test 1\Reports\20220216_222916\Test 1\20220216_222916\requests\main\2.har
+
+2022-02-16 22:29:33 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-02-16 22:29:33 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-02-16 22:29:33 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-02-16 22:29:33 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-02-16 22:29:33 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-02-16 22:29:33 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-02-16 22:29:33 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseData.getResponseBodyContent()): null
+
+2022-02-16 22:29:33 - [TEST_STEP][PASSED] - println(id): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PUT update" time="1.226" classname="Test Cases/PUT update" status="PASSED">
+         <system-out><![CDATA[2022-02-16 22:29:33 - [TEST_CASE][PASSED] - Test Cases/PUT update: Test Cases/PUT update
+
+2022-02-16 22:29:33 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("PUT update")): Send request and verify the response successfully
+
+2022-02-16 22:29:34 - [MESSAGE][INFO] - HAR: C:\Users\Teddy\Desktop\Test 1\Reports\20220216_222916\Test 1\20220216_222916\requests\main\3.har
+
+2022-02-16 22:29:34 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-02-16 22:29:34 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-02-16 22:29:34 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-02-16 22:29:34 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-02-16 22:29:34 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-16 22:29:27 - [TEST_SUITE][PASSED] - Test 1: Test Cases/PUT update]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
