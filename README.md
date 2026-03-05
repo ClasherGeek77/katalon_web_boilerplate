@@ -1,8 +1,4 @@
-# Web-Katalon-Example 🌐
-
-[![Katalon Studio](https://img.shields.io/badge/Katalon%20Studio-Web%20Automation-success?logo=katalon)](https://katalon.com/)
-[![Web UI](https://img.shields.io/badge/Testing-Web%20UI-blue)]()
-
+# UNI Katalon Web Automation Framework 🌐
 A comprehensive demonstration of Web UI Test Automation using **Katalon Studio**. This repository serves as a foundational example of organizing Web UI element locators, designing scalable test cases, and structuring data-driven suites.
 
 ## 🎯 Objective
