@@ -1,4 +1,4 @@
-# UNI Katalon Web Automation Framework 🌐
+# Katalon Web Automation Framework 🌐
 A comprehensive demonstration of Web UI Test Automation using **Katalon Studio**. This repository serves as a foundational example of organizing Web UI element locators, designing scalable test cases, and structuring data-driven suites.
 
 ## 🎯 Objective
