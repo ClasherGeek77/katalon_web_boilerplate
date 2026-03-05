@@ -1,6 +1,21 @@
-
+# Katalon Studio
 /bin/
 /Libs/
+/Reports/
 /.settings/
 /.classpath
-.svn/
+/.project
+/Checkpoints/
+/Data Files/
+/settings/internal/
+/.cache/
+/build/
+/tmp/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
