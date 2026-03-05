@@ -1,4 +1,4 @@
-# UNI Early Katalon Automation Test 🧪
+# Early Katalon Automation Test 🧪
 A legacy automation project built using **Katalon Studio**. This repository serves as an archive for early test cases, object repositories, and custom keywords.
 
 ## Project Structure
