@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_add_backpack</name>
+   <tag></tag>
+   <elementGuidId>ff5be6f2-10fc-4cfd-bdab-84a65d3d194e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test='add-to-cart-sauce-labs-backpack']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-test='add-to-cart-sauce-labs-backpack']</value>
+      <webElementGuid>9e5282c6-1460-4e38-a10a-4c23188262b1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

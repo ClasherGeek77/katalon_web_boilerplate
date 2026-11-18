@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_zip</name>
+   <tag></tag>
+   <elementGuidId>3bb8daf1-a553-477f-977e-f33c6b828838</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@data-test='postalCode']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@data-test='postalCode']</value>
+      <webElementGuid>19d59263-3f05-4e85-8361-e88cfb312fcb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

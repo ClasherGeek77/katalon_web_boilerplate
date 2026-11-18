@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_remove_backpack</name>
+   <tag></tag>
+   <elementGuidId>ab803766-10dc-4fac-a963-ad6f90f434da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test='remove-sauce-labs-backpack']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-test='remove-sauce-labs-backpack']</value>
+      <webElementGuid>f1bff693-9711-4662-ae97-4f22636883f6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

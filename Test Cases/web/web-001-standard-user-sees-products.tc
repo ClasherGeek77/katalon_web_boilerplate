@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>web-001-standard-user-sees-products</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0c97816-bd2b-4099-8b95-96c2af7ceeab</testCaseGuid>
+</TestCaseEntity>

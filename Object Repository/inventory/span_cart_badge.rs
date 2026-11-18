@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_cart_badge</name>
+   <tag></tag>
+   <elementGuidId>91349bbc-e219-4250-a6a9-1204a588b35d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test='shopping-cart-badge']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-test='shopping-cart-badge']</value>
+      <webElementGuid>9b536d1e-f26b-4b59-b488-9685e1e48c68</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

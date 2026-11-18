@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description>the local saucedemo clone</description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>root url of the saucedemo clone</description>
+      <initValue>'http://localhost:50000'</initValue>
+      <name>BASE_URL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

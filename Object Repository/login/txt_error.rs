@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_error</name>
+   <tag></tag>
+   <elementGuidId>49885cdb-9c98-4133-b34e-5e696a814644</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test='error']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-test='error']</value>
+      <webElementGuid>13765b01-620b-4186-9dec-31f1bae76e02</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

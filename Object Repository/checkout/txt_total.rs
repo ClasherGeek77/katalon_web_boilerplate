@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_total</name>
+   <tag></tag>
+   <elementGuidId>08a21925-07eb-4015-8581-5fff2191a597</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test='total-label']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-test='total-label']</value>
+      <webElementGuid>83ac0ce2-6e38-4f0f-8152-c47fbe7ef0e9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

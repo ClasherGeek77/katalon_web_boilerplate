@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_complete</name>
+   <tag></tag>
+   <elementGuidId>d6738089-89ca-4883-aa67-3587c75580e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test='complete-header']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-test='complete-header']</value>
+      <webElementGuid>b4493d81-6254-498c-947f-29b0b668b9b5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

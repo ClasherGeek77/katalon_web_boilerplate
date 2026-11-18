@@ -1,0 +1,13 @@
+.DS_Store
+Reports/
+bin/
+.cache
+.settings/
+.DS_Store
+Reports/
+bin/
+.cache
+.settings/
+Drivers/chromedriver
+console.properties
+Libs/Temp*.groovy

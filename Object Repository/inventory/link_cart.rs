@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_cart</name>
+   <tag></tag>
+   <elementGuidId>9d15de32-7eae-466d-8ee7-1dc1c90128bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test='shopping-cart-link']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-test='shopping-cart-link']</value>
+      <webElementGuid>b1a858a3-9748-4f0e-aa0d-ea80ec0216ea</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

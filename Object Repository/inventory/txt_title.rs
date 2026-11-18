@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_title</name>
+   <tag></tag>
+   <elementGuidId>3cb050e4-32be-4df4-8ffd-d1d92fa6a07a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-test='title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-test='title']</value>
+      <webElementGuid>f4d43b27-ebf6-4b00-b894-d864645058c6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
